@@ -3,12 +3,12 @@ using namespace std;
 int main()
 {
 	setlocale(LC_ALL, "Russian");
-	cout << "ââåäèòå ýëåìåíòû ìàññèâà" << endl;
+	cout << "Ð²Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl;
 	int array[2][2] = {};
 	for (int i = 0; i < 2; i++)
 		for (int j = 0; j < 2; j++)
 			cin >> array[i][j];
-	cout << "ìàññèâ ïîñëå çàïîëíåíèÿ" << endl;
+	cout << "Ð¼Ð°ÑÑÐ¸Ð² Ð¿Ð¾ÑÐ»Ðµ Ð·Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ñ" << endl;
 	for (int i = 0; i < 2; i++)
 		for (int j = 0; j < 2; j++)
 			cout << array[i][j] << " ";
@@ -17,7 +17,7 @@ int main()
 	int sum2 = array[0][0] + array[1][0];
 	int sum3 = array[1][0] + array[0][0];
 	int sum4 = array[1][0] + array[1][1];
-	cout << "ñóììà ïî ñòîëáöàì è ñòðîêàì" << endl;
+	cout << "ÑÑƒÐ¼Ð¼Ð° Ð¿Ð¾ ÑÑ‚Ð¾Ð»Ð±Ñ†Ð°Ð¼ Ð¸ ÑÑ‚Ñ€Ð¾ÐºÐ°Ð¼" << endl;
 	cout << sum1 << " " << sum2 << " " << sum3 << " " << sum4;
 	return 0;
 }
