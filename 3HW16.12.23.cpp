@@ -20,19 +20,21 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     int n;
-    cout << "Ââåäèòå êîëè÷åñòâî ıëåìåíòîâ ìàññèâà: ";
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ĞºĞ¾Ğ»Ğ¸Ñ‡ĞµÑÑ‚Ğ²Ğ¾ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ğ¾Ğ² Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ°: ";
     cin >> n;
 
     int* array = new int[n];
 
-    cout << "Ââåäèòå ıëåìåíòû ìàññèâà:" << endl;
-    for (int i = 0; i < n; i++) {
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞ»ĞµĞ¼ĞµĞ½Ñ‚Ñ‹ Ğ¼Ğ°ÑÑĞ¸Ğ²Ğ°:" << endl;
+    for (int i = 0; i < n; i++) 
+    {
         cin >> *(array + i);
     }
 
     invertArray(array, n);
-    cout << "Èíâåğòèğîâàííûé ìàññèâ:" << endl;
-    for (int i = 0; i < n; i++) {
+    cout << "Ğ˜Ğ½Ğ²ĞµÑ€Ñ‚Ğ¸Ñ€Ğ¾Ğ²Ğ°Ğ½Ğ½Ñ‹Ğ¹ Ğ¼Ğ°ÑÑĞ¸Ğ²:" << endl;
+    for (int i = 0; i < n; i++) 
+    {
         cout << *(array + i) << " ";
     }
     return 0;
