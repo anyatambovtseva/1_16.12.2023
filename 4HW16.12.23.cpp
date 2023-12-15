@@ -6,7 +6,7 @@ int main()
 {
     setlocale(LC_ALL, "Russian");
     char str[51];
-    cout << "Ââåäèòå ñòðîêó: ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ: ";
     cin.getline(str, 50);
 
     int count[10] = { 0 };
@@ -34,11 +34,11 @@ int main()
 
     if (maxDigit == -1) 
     {
-        cout << "Â ñòðîêå íåò öèôð." << endl;
+        cout << "Ð’ ÑÑ‚Ñ€Ð¾ÐºÐµ Ð½ÐµÑ‚ Ñ†Ð¸Ñ„Ñ€." << endl;
     }
     else 
     {
-        cout << "Ñàìàÿ ÷àñòî âñòðå÷àåìàÿ öèôðà â ñòðîêå: " << maxDigit << endl;
+        cout << "Ð¡Ð°Ð¼Ð°Ñ Ñ‡Ð°ÑÑ‚Ð¾ Ð²ÑÑ‚Ñ€ÐµÑ‡Ð°ÐµÐ¼Ð°Ñ Ñ†Ð¸Ñ„Ñ€Ð° Ð² ÑÑ‚Ñ€Ð¾ÐºÐµ: " << maxDigit << endl;
     }
     return 0;
 }
